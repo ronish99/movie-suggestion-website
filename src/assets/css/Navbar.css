@@ -1,0 +1,38 @@
+.navbar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: #333;
+  padding: 10px 20px;
+  color: white;
+  font-size: 20px;
+  height: 54px;
+}
+
+.left-side {
+  display: flex;
+  align-items: center;
+  padding-left: 24px;
+}
+.right-side {
+  display: flex;
+  align-items: center;
+}
+
+.right-side a {
+  margin-left: 10px;
+  color: white;
+  text-decoration: none;
+  padding-right: 30px;
+}
+
+.right-side a:hover {
+  color: lightgray;
+}
+.right-side a.active {
+  color: yellow; /* Change to your desired color */
+}
+.left-side img {
+  height: 60px;
+  width: auto;
+}

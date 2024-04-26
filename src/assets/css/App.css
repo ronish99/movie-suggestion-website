@@ -1,0 +1,21 @@
+/* Add dark mode styles */
+body.dark-mode {
+  background-color: #333;
+  color: #fff;
+}
+.footer {
+  display: flex;
+  justify-content: center;
+  height: 64px;
+  align-items: center;
+  background-color: #f4f4f4;
+  padding: 0px 54px;
+}
+.footer img {
+  height: 50px;
+  width: auto;
+}
+.footer {
+  display: flex;
+  justify-content: space-between;
+}
